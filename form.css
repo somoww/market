@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(73, 72, 72);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   width: 50%;
+
+  
+   
+}
+#form input,#form textarea{
+    
+    height:40px ;
+    margin: 20px;
+    border-radius: 10px;
+    width:400px;
+    border-style: none;
+}
+#form textarea{
+    height: 90px;
+}
+
+#btn:hover{
+    background: transparent;
+    border-style: solid ;
+    cursor: pointer;
+    font-size: larger;
+
+}
